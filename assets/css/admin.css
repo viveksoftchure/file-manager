@@ -1,0 +1,59 @@
+#meta_info .inside {
+    margin: 0;
+    padding: 0;
+}
+.meta-field {
+    position: relative;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #EAECF3;
+}
+.meta-field:first-child {
+    border-top: none;
+}
+.meta-field:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    background: #f9f9f9;
+    border-color: #e1e1e1;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+}
+.meta-field > .meta-label {
+    width: 20%;
+    margin: 0;
+    padding: 0 12px;
+    z-index: 99;
+}
+.meta-field .meta-label label {
+    display: block;
+    font-weight: 500;
+    margin: 0 0 3px;
+    padding: 0;
+}
+.meta-field > .meta-input {
+    width: 80%;
+    margin: 0;
+    padding: 0 12px;
+}
+.meta-input-wrap {
+    position: relative;
+    overflow: hidden;
+}
+.meta-control {
+    width: 100%;
+    padding: 4px 8px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.4;
+}
